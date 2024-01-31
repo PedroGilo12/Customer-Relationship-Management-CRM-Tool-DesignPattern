@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="720.0" minWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane minHeight="720.0" minWidth="1080.0">
+         <left>
+            <VBox prefHeight="200.0" prefWidth="360.0" style="-fx-background-color: #6aa977;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="button0" mnemonicParsing="false" prefHeight="71.0" prefWidth="360.0" text="Option0" />
+                  <Button fx:id="button1" mnemonicParsing="false" prefHeight="71.0" prefWidth="360.0" text="Option1" />
+                  <Button fx:id="button2" mnemonicParsing="false" prefHeight="71.0" prefWidth="360.0" text="Option2" />
+                  <Button fx:id="button3" mnemonicParsing="false" prefHeight="71.0" prefWidth="360.0" text="Option3" />
+                  <HBox alignment="CENTER" prefHeight="337.0" prefWidth="279.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="281.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../crm-tool-poo/customer-experience.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1f7e33;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="pageTitle" alignment="CENTER" prefHeight="139.0" prefWidth="1091.0" text="Client Connect" textFill="WHITE">
+                     <font>
+                        <Font name="Marlett" size="37.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+         </top>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <right>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </right>
+               <center>
+                  <VBox fx:id="LoginForm" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="genericLabel" alignment="CENTER" contentDisplay="TOP" prefHeight="11.0" prefWidth="530.0" text="Email:" textAlignment="CENTER">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="EmailInput" />
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="Enter" mnemonicParsing="false" text="Button" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </center>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
