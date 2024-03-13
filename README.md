@@ -28,6 +28,11 @@ The Adapter design pattern is a structural pattern that allows the interface of 
 
 ![img6](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img6.webp)
 
+## State Pattern
+The State design pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes. It achieves this by encapsulating the object’s behavior within different state objects, and the object itself dynamically switches between these state objects depending on its current state.
+
+![img7](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img7.png)
+
 # Usage
 
 ## Project Setup and Execution Guide
