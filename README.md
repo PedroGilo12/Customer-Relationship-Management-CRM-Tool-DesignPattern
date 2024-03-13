@@ -24,10 +24,9 @@ Pedro Henrique Vieira Giló (phvg@ic.ufal.br)
 * **Mobile Access and Integration: This functionality cannot be developed in the first stage of the project**
 
 ## Adapter Pattern
-
 The Adapter design pattern is a structural pattern that allows the interface of an existing class to be used as another interface. It acts as a bridge between two incompatible interfaces, making them work together. This pattern involves a single class, known as the adapter, which is responsible for joining functionalities of independent or incompatible interfaces.
 
-![img6](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img6.webp)
+![img6](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img6.webp)
 
 # Usage
 
@@ -70,20 +69,20 @@ password: 123
 
 The project incorporates two design patterns to enhance its functionality: the adapter and the state pattern. The adapter pattern is employed to modularize the application, rendering it independent of the interfaces used for user interaction. This strategic design allows for the prospective implementation of mobile functionality without requiring alterations to the primary application. In contrast, the state pattern is used to streamline the augmentation of code functionalities through a unified menu interface. This approach facilitates the seamless implementation of new screens within the framework of a finite state machine.
 
-![General Diagram](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/general.jpg)
+![General Diagram](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/general.jpg)
 
-![Fsm diagram](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/fsm.jpg)
+![Fsm diagram](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/fsm.jpg)
 
 ## Screens and options:
 
-![img0](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img0.jpg)
+![img0](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img0.jpg)
 
-![img1](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img1.jpg)
+![img1](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img1.jpg)
 
-![img2](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img2.jpg)
+![img2](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img2.jpg)
 
-![img3](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img3.jpg)
+![img3](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img3.jpg)
 
-![img4](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img4.jpg)
+![img4](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img4.jpg)
 
-![img5](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img5.jpg)
+![img5](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool-DesignPattern/blob/main/img/img5.jpg)
