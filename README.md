@@ -4,7 +4,7 @@
 
 - [Author](#Author)
 - [Last Updates](#last-updates)
-- [Remaing Updates](#remaining-updates)
+- [Adapter Pattern](#adapter-pattern)
 - [Usage](#usage)
 - [How does it work?](#how-does-it-work)
 
@@ -23,18 +23,11 @@ Pedro Henrique Vieira Giló (phvg@ic.ufal.br)
 * Lead Generation and Tracking: Tracking potential leads and their progress;
 * **Mobile Access and Integration: This functionality cannot be developed in the first stage of the project**
 
-## Remaining Updates
+## Adapter Pattern
 
-* ~~Contact Management: Storing and managing customer contact information;~~
-* ~~Sales Pipeline Management: Managing the stages of the sales process~~;
-* ~~Activity Tracking: Tracking interactions with customers, such as calls and meetings;~~
-* ~~Task and Appointment Scheduling: Organizing tasks and appointments with customers;~~
-* ~~Email Integration and Campaign Management: Managing email communications and marketing campaigns~~
-* ~~Lead Generation and Tracking: Tracking potential leads and their progress;~~
-* ~~Customizable Dashboards: Offering customizable dashboards for different user roles;~~
-* ~~Reporting and Analytics: Providing sales reports and customer analytics~~;
-* ~~Document Storage and Management: Storing and managing sales and marketing documents;~~
-* Mobile Access and Integration: Ensuring CRM accessibility and functionality on mobile
+The Adapter design pattern is a structural pattern that allows the interface of an existing class to be used as another interface. It acts as a bridge between two incompatible interfaces, making them work together. This pattern involves a single class, known as the adapter, which is responsible for joining functionalities of independent or incompatible interfaces.
+
+![img6](https://github.com/PedroGilo12/Customer-Relationship-Management-CRM-Tool/blob/main/img/img6.webp)
 
 # Usage
 
