@@ -9,9 +9,12 @@ public class UserAction {
 
   public DetailedDesktopInterface detailedDesktopInterface = new DetailedDesktopInterface(this);
 
+  public GuiInterface guiInterface = new GuiInterface(this);
+
   public DesktopInterface desktopInterface = new DesktopInterface(this);
+
   public UserInteractionAdapter userInteraction =
-      new UserInteractionAdapter(detailedDesktopInterface);
+      new UserInteractionAdapter(guiInterface);
 
   public JsonManagerInterface jsonManager = new JsonManagerInterface(this);
   public dataManagerAdapter dataManager = new dataManagerAdapter(jsonManager);

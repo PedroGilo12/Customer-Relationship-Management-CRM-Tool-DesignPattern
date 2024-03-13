@@ -1,8 +1,5 @@
 package application;
 
-import java.util.*;
-import userInterface.*;
-import dataInterface.*;
 import utilities.*;
 import utilities.Common.Menu;
 import utilities.Common.User;

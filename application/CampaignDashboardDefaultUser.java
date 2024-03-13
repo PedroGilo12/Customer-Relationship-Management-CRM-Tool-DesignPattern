@@ -1,9 +1,5 @@
 package application;
 
-import adapter.dataManager;
-import dataInterface.*;
-import java.util.*;
-import userInterface.*;
 import utilities.*;
 import utilities.Common.Customer;
 import utilities.Common.Menu;
